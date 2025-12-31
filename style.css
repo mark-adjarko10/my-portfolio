@@ -11,6 +11,12 @@
   overflow-x: hidden;
  }
 
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:1rem;
+}
+
  h1{
   font-size:45px;
  }
@@ -386,7 +392,7 @@ font-size:45px;
   font-family: sans-serif;
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:768px){
   body{
     align-items: center;
     text-align: start;
@@ -395,6 +401,7 @@ font-size:45px;
     position:relative;
     left:1px;
     align-items: center;
+    padding:0.5rem;
   }
   .small-container{
     flex-direction: column;
@@ -455,3 +462,4 @@ font-size:45px;
     flex-direction: column;
   }
 }
+
