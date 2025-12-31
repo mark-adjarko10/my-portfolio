@@ -12,7 +12,8 @@
  }
 
 .container{
-  max-width:1200px;
+  width:100%;
+  max-width:1100px;
   margin:0 auto;
   padding:1rem;
 }
@@ -47,6 +48,7 @@ align-items: center;
 
 section{
   transition: 0.8s ease-in-out;
+  margin-bottom:2rem;
 }
 
 .menu-bar ul{
@@ -467,5 +469,6 @@ font-size:45px;
     width:100%;
   }
 }
+
 
 
